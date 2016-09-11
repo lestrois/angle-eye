@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angle-eye", "angle-eye\angle-eye.csproj", "{E1CCE46E-5352-459F-B49E-C7890935251F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.richardqiao.angleeye.screener.ScreenshotCapture", "screener\org.richardqiao.angleeye.screener.ScreenshotCapture.csproj", "{8BAE9827-F108-4FE5-80A5-592329FADFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenAgent", "TaskTrayApplication\ScreenAgent.csproj", "{15C4E083-5741-477B-A153-D0C24F80C245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1CCE46E-5352-459F-B49E-C7890935251F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1CCE46E-5352-459F-B49E-C7890935251F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1CCE46E-5352-459F-B49E-C7890935251F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1CCE46E-5352-459F-B49E-C7890935251F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAE9827-F108-4FE5-80A5-592329FADFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAE9827-F108-4FE5-80A5-592329FADFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAE9827-F108-4FE5-80A5-592329FADFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAE9827-F108-4FE5-80A5-592329FADFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C4E083-5741-477B-A153-D0C24F80C245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C4E083-5741-477B-A153-D0C24F80C245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C4E083-5741-477B-A153-D0C24F80C245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C4E083-5741-477B-A153-D0C24F80C245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
